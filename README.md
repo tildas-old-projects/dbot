@@ -1,5 +1,7 @@
 # dbot
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 [![Known Vulnerabilities](https://snyk.io/test/github/xshotd/dbot/badge.svg)](https://snyk.io/test/github/xshotd/dbot)
 
 The JS Discord bot. With a web server. It's cool? Right?
