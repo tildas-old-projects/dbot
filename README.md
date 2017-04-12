@@ -1,5 +1,7 @@
 # dbot
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xshotD/dbot.svg)](https://greenkeeper.io/)
+
 [![Known Vulnerabilities](https://snyk.io/test/github/xshotd/dbot/badge.svg)](https://snyk.io/test/github/xshotd/dbot)
 
 The JS Discord bot. With a web server. It's cool? Right?
