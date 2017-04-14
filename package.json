@@ -4,7 +4,8 @@
   "description": "A Discord bot with a webserver. Cool bot.",
   "main": "index.js",
   "scripts": {
-    "test": "standard --fix && ./testutils/exitcode.sh"
+    "test": "standard --fix && ./testutils/exitcode.sh",
+    "start": "node www/server.js"
   },
   "repository": {
     "type": "git",
