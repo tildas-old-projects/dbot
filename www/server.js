@@ -8,5 +8,6 @@ const bot = require('../bot/core')
 
 const a = e()
 
+bot.connect()
 a.use(s(p.join(__dirname, 'views')))
 a.listen(3000)
