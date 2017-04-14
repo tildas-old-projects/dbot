@@ -1,6 +1,7 @@
 /* text */
 h1, h5 {
   color: white;
+  text-align: center;
 }
 /* box shadow (very pretty) */
 .box {
