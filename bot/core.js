@@ -9,7 +9,7 @@ var conf = JSON.parse(fs.readFileSync('config.json', 'utf8'))
 const bot = new e.CommandClient(conf.token, {}, {
   description: 'A test bot made with Eris',
   owner: 'lold#4960',
-  prefix: '&'
+  prefix: '&&'
 })
 
 bot.on('ready', () => {
