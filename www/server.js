@@ -3,7 +3,6 @@
 const e = require('express')
 const s = require('serve')
 const p = require('path')
-// TODO: Develop server (should be easy)
 // TODO: Show bot stats (may be a bit hard depending on if I can carry library stats to another file.)
 
 const a = e()
