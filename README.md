@@ -2,7 +2,7 @@
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-[![Known Vulnerabilities](https://snyk.io/test/github/xshotd/dbot/badge.svg)](https://snyk.io/test/github/xshotd/dbot)
+[![Known Vulnerabilities](https://snyk.io/test/github/xshotd/dbot/badge.svg)](https://snyk.io/test/github/xshotd/dbot) [![wercker status](https://app.wercker.com/status/dc1a47a35b850306f7e90714c8e89b98/s/master "wercker status")](https://app.wercker.com/project/byKey/dc1a47a35b850306f7e90714c8e89b98)
 
 The JS Discord bot. With a web server. It's cool? Right?
 
