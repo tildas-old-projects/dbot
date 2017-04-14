@@ -9,6 +9,9 @@ small {
   text-align: center;
 }
 
+.small {
+  font-size: 11px;
+}
 /* box shadow (very pretty) */
 .box {
   -moz-box-shadow: 10px 10px 5px #888;
