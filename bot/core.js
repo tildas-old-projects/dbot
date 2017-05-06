@@ -22,5 +22,6 @@ bot.registerCommand('about', 'my name is dbot and I live in a computer. https://
 bot.registerCommand('generic', 'generic sucks', {
   description: 'what is generic',
   fullDescription: 'lmao im gonan die'
+})
 
 bot.connect()
