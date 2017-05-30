@@ -27,13 +27,28 @@ bot.registerCommand('generic', 'generic sucks', {
 
 bot.on('messageCreate', (msg) => {
   if (msg.content === conf.prefix + 'shutdown') {
-    if (msg.author === conf.owner) {
+    if (msg.author.id === conf.owner) {
       bot.createMessage(msg.channel.id, 'ok bye')
       process.exit(1)
     } else {
       bot.createMessage(msg.channel.id, 'no')
     }
   }
-}
-)
+})
+
+bot.on('messageCreate', (msg, args) => {
+  if (msg.content === conf.prefix + 'eval') {
+    if (msg.author.id === conf.owner) {
+      if (args.length === 0) {
+        bot.createMessage(msg.channel.id, 'You silly, you can\'t eval a empty string...')
+      } else {
+       if (args.indexOf('bot.token') >= 0) {
+         bot.createMessage(msg.channel.id, ':rofl: Haha, no.')
+       } else {
+         bot.createMessage(msg.channel.id, '**Evaluated** - Results:\n```\n${eval(code)\n````')
+       }
+      }
+    }
+  }
+})
 bot.connect()
