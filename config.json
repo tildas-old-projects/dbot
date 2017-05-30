@@ -1,3 +1,6 @@
 {
-	"token": "blah"
+	"token": "blah",
+	"prefix": "some prefix",
+	"owner": "your userid",
+	"desc": "some description"
 }
