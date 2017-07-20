@@ -41,5 +41,5 @@ bot.on('messageCreate', (msg, args, err) => {
       } else {
 	 bot.createMessage(msg.channel.id, 'Success \`\`\`\n' + lol + '\n\`\`\`')
       }}}
-      
+
 bot.connect()
