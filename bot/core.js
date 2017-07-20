@@ -37,9 +37,9 @@ bot.on('messageCreate', (msg, args, err) => {
     if (msg.author.id === conf.owner) {
       const lol = require('shelljs').exec(args.toString())
       if (lol.code !== 0) {
-        bot.createMessage(msg.channel.id, 'Error!\n```' + err.toString() + '\n```')
+        bot.createMessage(msg.channel.id, 'Error!\n\`\`\`' + err.toString() + '\n\`\`\`')
       } else {
-	 bot.createMessage(msg.channel.id, 'Success ```\n' + lol '\n```')
+	 bot.createMessage(msg.channel.id, 'Success \`\`\`\n' + lol '\n\`\`\`')
       }}})
       
 bot.connect()
