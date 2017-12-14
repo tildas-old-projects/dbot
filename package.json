@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/xshotD/dbot#readme",
   "dependencies": {
-    "eris": "^0.7.0",
+    "eris": "^0.8.2",
     "express": "^4.15.2",
     "serve-static": "^1.12.1"
   },
