@@ -1,7 +1,7 @@
 const e = require('eris')
 
 // Please edit config.json with your token.
-const conf = JSON.parse(require('fs').readFileSync('config.json', 'utf8'))
+const conf = require('./config.json')
 
 // You may change this desc, the owner, and prefix.
 const bot = new e.CommandClient(conf.token, {}, {
